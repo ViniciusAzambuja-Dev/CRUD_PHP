@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Montserrat;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+
+nav{
+    background-color: rgb(233, 233, 233);
+    padding: 20px 0 5px 0;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.divPaiCookieEmail{
+    display: flex;
+    flex-direction: column;
+}
+.tituloSite{
+    padding-bottom: 30px;
+    font-size: 35px;
+    text-align: center;
+}
+.divCookie{
+    text-align: end;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.linkContato{
+    text-align: end;
+    margin: 15px 0 15px 0;
+
+}
+.linkContato a{
+    color: blue;
+}
+.menu__item {
+    flex: 16%;
+    text-align: center;
+    padding: 0px;
+ 
+}
+
+.menu__link {
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+.menu__linkSair{
+    padding: 10px 25px;
+    color: red;
+    text-transform: uppercase;
+}
+.menu__item:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.menu_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tituloRelatorio{
+    text-align: center;
+    font-weight: 400;
+}
+.containerPaiPag{
+    margin-top: 15px;
+}
+form{
+    width: 100%;
+}
+
+.divPaiForm{
+    width: 70%;
+}
+
+.divContainerPaiCampos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.primeiraDivCamposForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.divPaiCampos{
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+}
+.campos{
+   flex: 50%;
+   display: flex;
+   flex-direction: column;
+}
+ 
+
+.divButtonsForm{
+    text-align: center;   
+    margin: 15px 0 15px 0;
+}
+
+.submit{
+    padding: 10px 30px;
+    background-color: rgb(49, 219, 49);
+    border: 0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.submit:hover{
+    background-color: rgb(0, 255, 0);
+}
+
+.reset{
+    padding: 10px 30px;
+    background-color: rgb(233, 65, 65);
+    border: 0;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.reset:hover{
+    background-color: rgb(253, 36, 36);
+}
+
+.input{
+    margin-top: 3px;
+    padding: 5px;
+    font-family: Montserrat;
+}
+
+#selecao1, #selecao2{
+    padding: 5px;
+    font-family: Montserrat
+}
+.sectionTable{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgba(199, 197, 197, 0.685);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    
+}
+th{
+    background-color: #010505;
+    color: white;
+    font-size: 15px;
+    
+}
+.buttonMais{
+    padding: 5px 10px;
+}
+.buttonExcluir {
+    background-color: rgb(231, 37, 37);
+    color: white;
+    padding: 8px 15px;
+    border: 0;
+    cursor: pointer;
+}
+.buttonExcluir:hover {
+    background-color: rgb(248, 25, 25);
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

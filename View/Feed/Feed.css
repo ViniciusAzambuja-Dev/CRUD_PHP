@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Montserrat;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgb(233, 233, 233);
+    padding: 20px 0 5px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.divPaiCookieEmail{
+    display: flex;
+    flex-direction: column;
+}
+.tituloSite{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.divCookie{
+    text-align: end;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.linkContato{
+    text-align: end;
+    margin: 15px 0 15px 0;
+
+}
+.linkContato a{
+    color: blue;
+}
+.menu__item {
+    flex: 16%;
+    text-align: center;
+    padding: 0px;
+ 
+}
+.menu__linkSair{
+    padding: 10px 25px;
+    color: red;
+    text-transform: uppercase;
+}
+.menu__link {
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.menu__item:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.menu_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.divProdutosContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas com a mesma largura */
+    gap: 20px; /* Espaçamento entre as colunas */
+}
+
+.produto{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagemCamisas{
+    width: 80%;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 
+    0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 10px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.imagemCamisas:hover{
+    transform: scale(0.95);
+    transition: .3s;
+}
+
+.tituloCamisas{
+    text-align: start;
+    width: 80%;
+}
+
+.tipoEsporteCamisa{
+    text-align: start;
+    width: 80%;
+    color: rgb(145, 145, 145);
+}
+
+.containerPrecos{
+    text-align: start;
+    width: 80%;
+    display: flex;
+    margin-top: 10px;
+    gap: 12px;
+}
+
+.precoSemDesconto{
+    text-decoration:line-through;
+    color: rgb(145, 145, 145);
+}
+
+.divButtonComprar{
+    text-align: start;
+    width: 80%;
+}
+.buttonComprar{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    margin-top: 15px;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttonComprar:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.divButtonAdicionarAoCarrinho{
+    text-align: end;
+    width: 80%;
+    
+}
+.buttonAdicionarAoCarrinho{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-weight: 800;
+    margin-bottom: 15px;
+    border: 0;
+    cursor: pointer;
+}
+.buttonAdicionarAoCarrinho:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.titulo{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    color: black;
+    font-weight: bold;
+}
+
+.banner{
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.imagemBannerSelecao{
+    width: 100%;
+    height: auto;
+}
+.ligas{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+
