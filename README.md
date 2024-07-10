@@ -9,7 +9,7 @@
 - HTML
 - CSS
 
-## Objetivo :
+## Objetivos :
 - Cadastro e Login de usuários
 - 3 páginas abertas ao usuário
 - Controle de acesso (admin e user)
